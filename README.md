@@ -97,7 +97,7 @@ NOTE: All console logs will be stored in the ``logs`` directory.
 ```
 
 ### Transaction flow in the network
-![transaction flow diagram](./client/transaction_flow.PNG)
+![transaction flow diagram](transaction_flow.PNG)
 
 ### Stakeholders in the network
 1. Farmer -> invokes - recordProduce()
