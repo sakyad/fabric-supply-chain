@@ -1,0 +1,70 @@
+Server is now Live on port: 8000
+getting all produce from database: 
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Sakya","location":"67.0006, -70.5476","organic":"true","product":"Chicken","timestamp":"Fri Jun 22 2018 11:02:01 GMT+0530 (India Standard Time)","weight":"1400.00"}},{"Key":"11", "Record":{"holder":"James","location":"28.012, 150.013","organic":"true","product":"Caviar","timestamp":"Tue Mar 06 2018 07:03:03 GMT+0800 (Singapore Standard Time)","weight":"500"}},{"Key":"2", "Record":{"holder":"Ilya","location":"91.2395, -49.4594","organic":"false","product":"Beef","timestamp":"Fri Jan 11 2019 12:01:01 GMT+0800 (Singapore Standard Time)","weight":"1000.00"}},{"Key":"3", "Record":{"holder":"Dan","location":"58.0148, 59.01391","organic":"false","product":"Pork","timestamp":"Fri Jan 11 2019 12:05:21 GMT+0800 (Singapore Standard Time)","weight":"1200.00"}},{"Key":"4", "Record":{"holder":"George","location":"-45.0945, 0.7949","organic":"true","product":"Salmon","timestamp":"Wed Mar 13 2019 10:05:01 GMT+0800 (Singapore Standard Time)","weight":"1500.00"}},{"Key":"5", "Record":{"holder":"Khalisi","location":"-107.6043, 19.5003","organic":"true","product":"Salmon","timestamp":"Fri Mar 15 2019 20:00:01 GMT+0800 (Singapore Standard Time)","weight":"2400.00"}},{"Key":"6", "Record":{"holder":"Hilbert","location":"34.03, 123.78","organic":"true","product":"Caviar","timestamp":"Sat Sep 29 2018 09:45:00 GMT+0800 (Singapore Standard Time)","weight":"555"}}]
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"holder":"Hilbert","location":"34.03, 123.78","organic":"true","product":"Caviar","timestamp":"Sat Sep 29 2018 09:45:00 GMT+0800 (Singapore Standard Time)","weight":"555"}
+submit recording of a farm produce: 
+[ '7',
+  'Lamb',
+  '999.99',
+  'undefined',
+  '28.012, 150.013',
+  'Fri Nov 30 2018 15:53:56 GMT+0800 (Singapore Standard Time)',
+  'James' ]
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  59909532bec4725e5e07f4c2a5467ab8df4d37714466758b1cea8a862adb5ec2
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+The transaction has been committed on peer address: localhost:7051
+Send transaction promise and event listener promise have completed
+Successfully sent transaction to the orderer.
+Successfully committed the change to the ledger by the peer
+Header already sent. Error: Can't set headers after they are sent.
+getting all produce from database: 
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Sakya","location":"67.0006, -70.5476","organic":"true","product":"Chicken","timestamp":"Fri Jun 22 2018 11:02:01 GMT+0530 (India Standard Time)","weight":"1400.00"}},{"Key":"11", "Record":{"holder":"James","location":"28.012, 150.013","organic":"true","product":"Caviar","timestamp":"Tue Mar 06 2018 07:03:03 GMT+0800 (Singapore Standard Time)","weight":"500"}},{"Key":"2", "Record":{"holder":"Ilya","location":"91.2395, -49.4594","organic":"false","product":"Beef","timestamp":"Fri Jan 11 2019 12:01:01 GMT+0800 (Singapore Standard Time)","weight":"1000.00"}},{"Key":"3", "Record":{"holder":"Dan","location":"58.0148, 59.01391","organic":"false","product":"Pork","timestamp":"Fri Jan 11 2019 12:05:21 GMT+0800 (Singapore Standard Time)","weight":"1200.00"}},{"Key":"4", "Record":{"holder":"George","location":"-45.0945, 0.7949","organic":"true","product":"Salmon","timestamp":"Wed Mar 13 2019 10:05:01 GMT+0800 (Singapore Standard Time)","weight":"1500.00"}},{"Key":"5", "Record":{"holder":"Khalisi","location":"-107.6043, 19.5003","organic":"true","product":"Salmon","timestamp":"Fri Mar 15 2019 20:00:01 GMT+0800 (Singapore Standard Time)","weight":"2400.00"}},{"Key":"6", "Record":{"holder":"Hilbert","location":"34.03, 123.78","organic":"true","product":"Caviar","timestamp":"Sat Sep 29 2018 09:45:00 GMT+0800 (Singapore Standard Time)","weight":"555"}},{"Key":"7", "Record":{"holder":"James","location":"28.012, 150.013","organic":"undefined","product":"Lamb","timestamp":"Fri Nov 30 2018 15:53:56 GMT+0800 (Singapore Standard Time)","weight":"999.99"}}]
+submit recording of a farm produce: 
+[ '8',
+  'Lamb',
+  '99.99',
+  'false',
+  '28.012, 150.013',
+  'Fri Nov 30 2018 15:53:56 GMT+0800 (Singapore Standard Time)',
+  'Newton' ]
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  53ace3369045cd1e10b345d585bd9dba2e737002c864eaee6051cf0b3ed18468
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+The transaction has been committed on peer address: localhost:7051
+Send transaction promise and event listener promise have completed
+Successfully sent transaction to the orderer.
+Successfully committed the change to the ledger by the peer
+Header already sent. Error: Can't set headers after they are sent.
+getting all produce from database: 
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  [{"Key":"1", "Record":{"holder":"Sakya","location":"67.0006, -70.5476","organic":"true","product":"Chicken","timestamp":"Fri Jun 22 2018 11:02:01 GMT+0530 (India Standard Time)","weight":"1400.00"}},{"Key":"11", "Record":{"holder":"James","location":"28.012, 150.013","organic":"true","product":"Caviar","timestamp":"Tue Mar 06 2018 07:03:03 GMT+0800 (Singapore Standard Time)","weight":"500"}},{"Key":"2", "Record":{"holder":"Ilya","location":"91.2395, -49.4594","organic":"false","product":"Beef","timestamp":"Fri Jan 11 2019 12:01:01 GMT+0800 (Singapore Standard Time)","weight":"1000.00"}},{"Key":"3", "Record":{"holder":"Dan","location":"58.0148, 59.01391","organic":"false","product":"Pork","timestamp":"Fri Jan 11 2019 12:05:21 GMT+0800 (Singapore Standard Time)","weight":"1200.00"}},{"Key":"4", "Record":{"holder":"George","location":"-45.0945, 0.7949","organic":"true","product":"Salmon","timestamp":"Wed Mar 13 2019 10:05:01 GMT+0800 (Singapore Standard Time)","weight":"1500.00"}},{"Key":"5", "Record":{"holder":"Khalisi","location":"-107.6043, 19.5003","organic":"true","product":"Salmon","timestamp":"Fri Mar 15 2019 20:00:01 GMT+0800 (Singapore Standard Time)","weight":"2400.00"}},{"Key":"6", "Record":{"holder":"Hilbert","location":"34.03, 123.78","organic":"true","product":"Caviar","timestamp":"Sat Sep 29 2018 09:45:00 GMT+0800 (Singapore Standard Time)","weight":"555"}},{"Key":"7", "Record":{"holder":"James","location":"28.012, 150.013","organic":"undefined","product":"Lamb","timestamp":"Fri Nov 30 2018 15:53:56 GMT+0800 (Singapore Standard Time)","weight":"999.99"}},{"Key":"8", "Record":{"holder":"Newton","location":"28.012, 150.013","organic":"false","product":"Lamb","timestamp":"Fri Nov 30 2018 15:53:56 GMT+0800 (Singapore Standard Time)","weight":"99.99"}}]
+changing holder of a farm produce: 
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Assigning transaction_id:  a68582824dd820d6957042126fd783c2beb044903f019c0a1bd86af1af427ecf
+Transaction proposal was good
+Successfully sent Proposal and received ProposalResponse: Status - 200, message - ""
+The transaction has been committed on peer localhost:7051
+Send transaction promise and event listener promise have completed
+Successfully sent transaction to the orderer.
+Successfully committed the change to the ledger by the peer
+Store path:/home/sakya/.hfc-key-store
+Successfully loaded user1 from persistence
+Query has completed, checking results
+Response is  {"holder":"Mitch","location":"28.012, 150.013","organic":"false","product":"Lamb","timestamp":"Fri Nov 30 2018 15:53:56 GMT+0800 (Singapore Standard Time)","weight":"99.99"}
